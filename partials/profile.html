@@ -1,0 +1,20 @@
+<header class="topcoat-navigation-bar">
+    <div class="topcoat-navigation-bar__item left quarter" ng-click="back()">
+        <a class="topcoat-icon-button--quiet">
+            <span class="topcoat-icon topcoat-icon--menu-stack"></span>
+        </a>
+    </div>
+    <div class="topcoat-navigation-bar__item center half">
+        <h1 class="topcoat-navigation-bar__title" bindonce bo-text="screenTitle"></h1>
+    </div>
+    <div class="topcoat-navigation-bar__item right quarter">
+        <a class="topcoat-icon-button--quiet">
+            <span class="topcoat-icon topcoat-icon--edit"></span>
+        </a>
+    </div>
+</header>
+
+<section>
+    <p align="center"><input type="text" class="topcoat-text-input" placeholder="Name" ng-model="profile.author"></p>
+    <p align="center"><textarea class="topcoat-textarea" rows="6" cols="26" placeholder="Description" ng-model="profile.description"></textarea></p>
+</section>

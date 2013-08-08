@@ -1,0 +1,15 @@
+.mainBtn{
+    width:280px;
+}
+
+.enter-view-setup{
+    -webkit-transition: .5s linear all;
+    position:relative;
+    left:100%;
+    opacity:0;
+}
+.enter-view-setup.enter-view-start{
+    left:0;
+    opacity: 1;
+}
+ 
